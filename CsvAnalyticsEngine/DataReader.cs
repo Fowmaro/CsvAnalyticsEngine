@@ -2,31 +2,29 @@ namespace CsvAnalyticsEngine;
 
 public class DataReader
 {
-    public IEnumerable<MentalHealthData> ReadData(string filepath)
+    public async IAsyncEnumerable<MentalHealthData> ReadData(string filepath)
     {
-        var mentalHealthData = new List<MentalHealthData>();
-
-        foreach (var line in File.ReadLines(filepath).Skip(1))
+        await foreach (var line in File.ReadLinesAsync(filepath).Skip(1))
         {
             var values =  line.Split(',');
-            mentalHealthData.Add( new MentalHealthData
+            var record = new MentalHealthData
             {
-                age = int.Parse(values[0]),
-                gender = values[1],
-                daily_social_media_hours =  double.Parse(values[2]),
-                platform =  values[3],
-                sleep_hours =  double.Parse(values[4]),
-                screen_time_before_sleep = double.Parse(values[5]),
-                academic_performance =  double.Parse(values[6]),
-                physical_activity = double.Parse(values[7]),
-                social_interaction_level =  values[8],
-                stress_level = int.Parse(values[9]),
-                anxiety_level = int.Parse(values[10]),
-                addiction_level = int.Parse(values[11]),
-                depression_label = int.Parse(values[12]),
-            });
+                Age = int.Parse(values[0]),
+                Gender = values[1],
+                DailySocialMediaHours = double.Parse(values[2]),
+                Platform = values[3],
+                SleepHours = double.Parse(values[4]),
+                ScreenTimeBeforeSleep = double.Parse(values[5]),
+                AcademicPerformance = double.Parse(values[6]),
+                PhysicalActivity = double.Parse(values[7]),
+                SocialInteractionLevel = values[8],
+                StressLevel = int.Parse(values[9]),
+                AnxietyLevel = int.Parse(values[10]),
+                AddictionLevel = int.Parse(values[11]),
+                DepressionLabel = int.Parse(values[12]),
+            };
+        yield return record;
         }
         
-        return mentalHealthData;
     }
 }
