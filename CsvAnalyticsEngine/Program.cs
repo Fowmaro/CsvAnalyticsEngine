@@ -1,6 +1,6 @@
 ﻿using CsvAnalyticsEngine;
 
-var reader = new DataReader("/home/maro/Downloads/Teen_Mental_Health_Dataset.csv");
+var reader = new DataReader("Data/Teen_Mental_Health_Dataset.csv");
 var engine = new AnalyticsEngine(reader);
 
 Console.WriteLine("--- Top 10 Most Stressed Teens ---");
