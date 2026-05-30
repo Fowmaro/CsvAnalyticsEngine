@@ -1,12 +1,20 @@
 namespace CsvAnalyticsEngine;
 
-public class DataReader
+public class DataReader : IDataReader
 {
-    public async IAsyncEnumerable<MentalHealthData> ReadData(string filepath)
+    private readonly string _filePath;
+
+    public DataReader(string filePath)
     {
-        await foreach (var line in File.ReadLinesAsync(filepath).Skip(1))
+        _filePath = filePath;
+    }
+    public async IAsyncEnumerable<MentalHealthData> ReadData()
+    {
+        await foreach (var line in File.ReadLinesAsync(_filePath).Skip(1))
         {
+            if (string.IsNullOrWhiteSpace(line)) continue;
             var values =  line.Split(',');
+            if (values.Length < 13) continue;
             var record = new MentalHealthData
             {
                 Age = int.Parse(values[0]),

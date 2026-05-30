@@ -1,24 +1,17 @@
 namespace CsvAnalyticsEngine;
 
 public record MentalHealthData
-{
-    public int Age {get; set;}
-    public string Gender {get; set;}
-    public double DailySocialMediaHours {get; set;}
-    public string Platform {get; set;}
-    public double SleepHours {get; set;}
-    public double ScreenTimeBeforeSleep {get; set;}
-    public double AcademicPerformance {get; set;}
-    public double PhysicalActivity {get; set;}
-    public string SocialInteractionLevel {get; set;}
-    public int StressLevel {get; set;}
-    public int AnxietyLevel {get; set;}
-    public int AddictionLevel {get; set;}
-    public int DepressionLabel {get; set;}
-    
-    
-    
-    
-    
-    
+{ public int Age { get; init; }
+    public string Gender { get; init; }
+    public double DailySocialMediaHours { get; init; }
+    public string Platform { get; init; }
+    public double SleepHours { get; init; }
+    public double ScreenTimeBeforeSleep { get; init; }
+    public double AcademicPerformance { get; init; }
+    public double PhysicalActivity { get; init; }
+    public string SocialInteractionLevel { get; init; }
+    public int StressLevel { get; init; }
+    public int AnxietyLevel { get; init; }
+    public int AddictionLevel { get; init; }
+    public int DepressionLabel { get; init; }
 }

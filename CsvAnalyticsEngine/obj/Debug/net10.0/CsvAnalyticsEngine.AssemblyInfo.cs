@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CsvAnalyticsEngine")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee78f1f271015a0e98ba2fcd630d0be00cc00278")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+526fb1851c9308d008d23372012120d25968bea8")]
 [assembly: System.Reflection.AssemblyProductAttribute("CsvAnalyticsEngine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CsvAnalyticsEngine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

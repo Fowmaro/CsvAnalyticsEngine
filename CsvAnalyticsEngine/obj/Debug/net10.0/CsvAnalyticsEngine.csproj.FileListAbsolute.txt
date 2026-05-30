@@ -1,0 +1,15 @@
+/home/maro/RiderProjects/CsvAnalyticsEngine/CsvAnalyticsEngine/bin/Debug/net10.0/CsvAnalyticsEngine
+/home/maro/RiderProjects/CsvAnalyticsEngine/CsvAnalyticsEngine/bin/Debug/net10.0/CsvAnalyticsEngine.deps.json
+/home/maro/RiderProjects/CsvAnalyticsEngine/CsvAnalyticsEngine/bin/Debug/net10.0/CsvAnalyticsEngine.runtimeconfig.json
+/home/maro/RiderProjects/CsvAnalyticsEngine/CsvAnalyticsEngine/bin/Debug/net10.0/CsvAnalyticsEngine.dll
+/home/maro/RiderProjects/CsvAnalyticsEngine/CsvAnalyticsEngine/bin/Debug/net10.0/CsvAnalyticsEngine.pdb
+/home/maro/RiderProjects/CsvAnalyticsEngine/CsvAnalyticsEngine/obj/Debug/net10.0/CsvAnalyticsEngine.GeneratedMSBuildEditorConfig.editorconfig
+/home/maro/RiderProjects/CsvAnalyticsEngine/CsvAnalyticsEngine/obj/Debug/net10.0/CsvAnalyticsEngine.AssemblyInfoInputs.cache
+/home/maro/RiderProjects/CsvAnalyticsEngine/CsvAnalyticsEngine/obj/Debug/net10.0/CsvAnalyticsEngine.AssemblyInfo.cs
+/home/maro/RiderProjects/CsvAnalyticsEngine/CsvAnalyticsEngine/obj/Debug/net10.0/CsvAnalyticsEngine.csproj.CoreCompileInputs.cache
+/home/maro/RiderProjects/CsvAnalyticsEngine/CsvAnalyticsEngine/obj/Debug/net10.0/CsvAnalyticsEngine.sourcelink.json
+/home/maro/RiderProjects/CsvAnalyticsEngine/CsvAnalyticsEngine/obj/Debug/net10.0/CsvAnalyticsEngine.dll
+/home/maro/RiderProjects/CsvAnalyticsEngine/CsvAnalyticsEngine/obj/Debug/net10.0/refint/CsvAnalyticsEngine.dll
+/home/maro/RiderProjects/CsvAnalyticsEngine/CsvAnalyticsEngine/obj/Debug/net10.0/CsvAnalyticsEngine.pdb
+/home/maro/RiderProjects/CsvAnalyticsEngine/CsvAnalyticsEngine/obj/Debug/net10.0/CsvAnalyticsEngine.genruntimeconfig.cache
+/home/maro/RiderProjects/CsvAnalyticsEngine/CsvAnalyticsEngine/obj/Debug/net10.0/ref/CsvAnalyticsEngine.dll
